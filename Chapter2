@@ -1,0 +1,49 @@
+message = "All work and no play makes Jack a dull boy."
+print(message)
+
+var= (6 * 1 - 2)
+print(var)
+
+var= (6 * -1)
+print(var)
+
+bruce=6
+print(bruce + 4)
+
+P=10000
+n=12
+r=8
+t=5
+
+P * (1 + r / n)**n/t
+print(P*(1+r/n)**n/t)
+
+5 % 2
+print(5 % 2)
+
+9 % 5
+print(9 % 5)
+
+15 % 12
+print(15 % 12)
+
+12 % 15
+print(12 % 15)
+
+6 % 6
+print(6 % 6)
+
+# 0 % 7
+# print(0 % 7)
+#
+# 7 % 0
+# print(7 % 0)
+
+Time = int(input("What is the time now?"))
+print(Time)
+
+NumberofHours = int(input('How many hours to wait?'))
+print(NumberofHours)
+
+Timewhenclockgoesoff =Time + NumberofHours
+print(Timewhenclockgoesoff)
