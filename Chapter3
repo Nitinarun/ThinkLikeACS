@@ -1,0 +1,162 @@
+word = "We like Python Turtles!"
+for char in word:
+    print(word)
+
+print("we like Python Turtles\n"*1000)
+
+for i in range(1000):
+    print("we like Python")
+
+for f in ["January","February","March","April","May","June","July","August","September","October","November","December"]:
+    Invite= "One of the months of the year" + f
+    print(Invite)
+
+columns = ["12","10","32","3","66","17","42","99","20"]
+for f in columns:
+    print(f)
+
+rows =[12,10,32,3,66,17,42,99,20]
+for f in rows:
+    print(f**2)
+
+print(12+10+32+3+66+17+42+99+20)
+
+
+rows=[12,10,32,3,66,17,42,99,20]
+for f in rows:
+    print(12*10*32*3*66*17*42*99*20)
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("Red")
+wn.title("Hello Tess!")
+
+tess=turtle.Turtle()
+tess.color("black")
+tess.pensize(3)
+
+tess.forward(0)
+tess.left(3645)
+turtle.done()
+
+import turtle
+
+wn = turtle.Screen()
+wn.bgcolor("Blue")
+wn.title("Hello Tess!")
+
+tess=turtle.Turtle()
+tess.color("black")
+tess.pensize(3)
+
+tess.forward(100)
+tess.left(120)
+tess.forward(100)
+tess.left(120)
+tess.forward(100)
+turtle.done()
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("Red")
+wn.title = ("Hello Tess!")
+
+tess=turtle.Turtle()
+tess.color("black")
+tess.pensize(3)
+
+tess.forward(100)
+tess.left(90)
+tess.forward(100)
+tess.left(90)
+tess.forward(100)
+tess.left(90)
+tess.forward(100)
+turtle.done()
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("Red")
+wn.title = ("Hello Tess!")
+
+tess=turtle.Turtle()
+tess.color()
+tess.pensize(3)
+
+tess.forward(100)
+tess.left(60)
+tess.forward(100)
+tess.left(60)
+tess.forward(100)
+tess.left(60)
+tess.forward(100)
+tess.left(60)
+tess.forward(100)
+tess.left(60)
+tess.forward(100)
+turtle.done()
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("Red")
+wn.title = ("Hello Tess!")
+
+tess =turtle.Turtle()
+tess.color("black")
+tess.pensize(3)
+
+tess.forward(100)
+tess.left(45)
+tess.forward(100)
+tess.left(45)
+tess.forward(100)
+tess.left(45)
+tess.forward(100)
+tess.left(45)
+tess.forward(100)
+tess.left(45)
+tess.forward(100)
+tess.left(45)
+tess.forward(100)
+tess.left(45)
+tess.forward(100)
+turtle.done()
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("Red")
+wn.title("Hello Tess!")
+
+tess = turtle.Turtle()
+tess.color("black")
+tess.pensize(3)
+
+tess.forward(160)
+tess.left(-43)
+tess.forward(100)
+tess.left(270)
+tess.forward(100)
+tess.left(-97)
+tess.forward(100)
+tess.left(-43)
+tess.forward(100)
+tess.left(200)
+tess.forward(100)
+tess.left(-940)
+tess.forward(100)
+tess.left(17)
+tess.forward(100)
+tess.left(-86)
+tess.forward(100)
+turtle.done()
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("Black")
+tess = turtle.Turtle()
+tess.color("red")
+
+for i in range (5):
+    tess.forward(100)
+    tess.left(144)
+turtle.done()
