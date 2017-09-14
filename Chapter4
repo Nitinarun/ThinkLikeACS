@@ -1,0 +1,59 @@
+import turtle
+def draw_square(t ,sz):
+    for i in range(4):
+        t.left(90)
+        t.forward(sz)
+
+# Setup turtle
+wn = turtle.Screen()
+wn.bgcolor = ("Red")
+wn.title("Alex draw a Square")
+alex = turtle.Turtle()
+
+#loop for squares
+for i in range (5):
+    #draws an individual square
+    draw_square(alex , 20)
+    alex.penup()
+    alex.forward(30)
+    alex.pendown()
+
+turtle.done()
+
+import turtle
+def draw_square(t,sz):
+    for i in range(5):
+        t.left(90)
+        t.forward(sz)
+
+wn = turtle.Screen()
+wn.bgcolor = ("Red")
+wn.title = ("Alex draw squares")
+alex = turtle.Turtle()
+
+for i in range (20,120,20):
+    draw_square(alex , i)
+    alex.penup()
+    alex.right(45)
+    alex.forward(15)
+    alex.left(45)
+
+    alex.pendown()
+turtle.done()
+
+import turtle
+def draw_poly(t, n, sz):
+    for i in range(n):
+        t.left(360/n)
+        t.forward(sz)
+
+wn = turtle.Screen()
+wn.bgcolor("red")
+wn.title("Tess makes polygon")
+tess=turtle.Turtle()
+
+t = tess
+n = 8
+sz = 50
+draw_poly(t,n,sz)
+turtle.done()
