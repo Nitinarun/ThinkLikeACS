@@ -26,3 +26,23 @@ a < 18 and day == 3
 3 != 3
 3 >= 4
 not (3 < 4)
+
+Mark = int(input("What is your examination mark ?"))
+
+if Mark >= 75:
+    print("Good job , you got first")
+
+if Mark >= 70-75:
+    print("Still good, you got an Upper second")
+
+if Mark >= 60-70:
+    print("Good but try harder next time, you got second ")
+
+if Mark >= 50-60:
+    print("You got Third")
+
+if Mark >= 45-50:
+    print("Go back to your notes , you got F1 supp")
+
+if Mark >= 40-45:
+    print("Please study this again, you got F2")
