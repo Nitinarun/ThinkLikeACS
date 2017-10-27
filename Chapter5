@@ -1,0 +1,28 @@
+def weekday():
+    weekday = ("Sunday", " Monday" , "Tuesday" , "Wednesday" , "Thursday", "Friday" , "Saturday")
+    print(list(enumerate(weekday,0)))
+    weeknum = int(input("weekday number:",))
+    weekday_name = weekday(weeknum)
+    return (weekday_name)
+
+weekday_name = weekday()
+print(weekday)
+
+weekday = ("Sunday", " Monday" , "Tuesday" , "Wednesday" , "Thursday", "Friday" , "Saturday")
+print(list(enumerate(weekday,0)))
+
+Date =input("What date are you leaving?")
+Lengthofstay =input("How long was your stay?")
+
+Dayofweekyoureturn = Date + Lengthofstay
+print(Dayofweekyoureturn)
+
+a <= b
+a < b
+a < 18 and day != 3
+a < 18 and day == 3
+
+3 == 3
+3 != 3
+3 >= 4
+not (3 < 4)
