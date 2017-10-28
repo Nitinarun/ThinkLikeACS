@@ -46,3 +46,24 @@ if Mark >= 45-50:
 
 if Mark >= 40-45:
     print("Please study this again, you got F2")
+    
+    import turtle
+def draw_bar(t, height):
+    t.begin_fill()
+    t.left(90)
+    t.forward(height)
+    t.write("  "+ str(height))
+    t.right(90)
+    t.forward(40)
+    t.right(90)
+    t.forward(height)
+    t.left(90)
+    t.end_fill()
+    t.forward(20)
+    
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+
+tess = turtle.Turtle()
+tess.color("blue", "red")
+tess.pensize(3)
