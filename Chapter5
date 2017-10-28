@@ -67,3 +67,25 @@ wn.bgcolor("lightgreen")
 tess = turtle.Turtle()
 tess.color("blue", "red")
 tess.pensize(3)
+
+FirstLength = int(input("Put in one of the length value"))
+SecondLength = int(input("Put in the next value"))
+
+find_hypot = (FirstLength)+(SecondLength)
+print(find_hypot)
+
+SquaredValue = (find_hypot)*2
+print(SquaredValue)
+
+Hypotenuse = sqrt = (SquaredValue)**(1/2)
+print(Hypotenuse)
+
+FirstLength = int(input("Put in your first length"))
+SecondLength = int(input("Put in your next length"))
+ThirdLength = int(input("Put in your final length"))
+
+if FirstLength > SecondLength&ThirdLength:
+    print("The Triangle is a right-angled Triangle")
+
+if FirstLength < SecondLength&ThirdLength:
+    print("The triangle is not a right-angled triangle")
