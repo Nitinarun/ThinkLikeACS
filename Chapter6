@@ -1,0 +1,159 @@
+Compass = {"N","E","S","W"}
+print(Compass)
+
+def turn_clockwise(Answer):
+    if Answer == "N":
+        print("The opposite direction for North is South")
+
+    if Answer == "E":
+        print("The opposite direction for East is West")
+
+    if Answer == "S":
+        print("The opposite direction for South is North")
+
+    if Answer == "W":
+        print("The opposite direction for West is East")
+
+
+print("What direction do you want from above ?")
+Answer =input("Write your answer here:")
+turn_clockwise(Answer)
+
+Days = "Sunday","Monday","Tuesday","Wenesday","Thursday","Friday","Saturday"
+print(Days)
+
+def day_name(Day):
+    if Day == "Sunday":
+        print("The number is 0")
+
+    if Day == "Monday":
+        print("The number is 1")
+
+    if Day == "Tuesday":
+        print("The number is 2")
+
+    if Day == "Wednesday":
+        print("The number is 3")
+
+    if Day == "Thursday":
+        print("The number is 4")
+
+    if Day == "Friday":
+        print("The number is 5")
+
+    if Day == "Saturday":
+        print("The number is 6")
+
+Question = input("What day would you like to pick?")
+print(Question)
+day_name(Question)
+
+Days = "Sunday","Monday","Tuesday","Wenesday","Thursday","Friday","Saturday"
+print(Days)
+
+Numbers = ("0","1","2","3","4","5","6","7")
+print(Numbers)
+
+def day_num(Days):
+    if Days == "Sunday":
+        print("If the number is 0 then the returned number is 0 ")
+        return(0)
+
+    if Days == "Monday":
+        print("If the number is 1 then the returned number is 1")
+        return(1)
+
+    if Days == "Tuesday":
+        print("If the number is 2 then the returned number is 2")
+        return(2)
+
+    if Days == "Wednesday":
+        print("If the number is 3 then the returned number is 3")
+        return(3)
+
+    if Days == "Thursday":
+        print("If the number is 4 then the returned number is 4")
+        return(4)
+
+    if Days == "Friday":
+        print("If the number is 5 then the returned number is 5")
+        return(5)
+
+    if Days == "Saturday":
+        print("If the number is 6 then the returned number is 6")
+        return(6)
+
+Question = input("What day would you like to pick?")
+print(Question)
+day_num_return = day_num(Question)
+print(day_num_return)
+
+Days = ("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
+print(Days)
+
+Numbers = ("1","2","3","4","5","6","7")
+print(Numbers)
+
+Value = int(input("What date are you leaving on?"))
+SecondValue= int(input("How many days are you staying on your holiday?"))
+DateofReturn = Value + SecondValue
+Sentence = "You will return on the :"
+print(Sentence)
+print(DateofReturn)
+
+Days = ("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
+print(Days)
+
+Numbers = ("1","2","3","4","5","6","7")
+print(Numbers)
+
+Value = int(input("What date are you leaving on?"))
+SecondValue= int(input("How many days are you staying on your holiday?"))
+DateofReturn = Value - SecondValue
+Sentence = "You will return on the :"
+print(Sentence)
+print(DateofReturn)
+
+Months = ("January","February","March","April","May","June","July","August","September","October","November","December")
+print(Months)
+
+def days_in_months():
+    if Question== "january":
+        print("There are 31 days in January")
+
+    if Question == "february":
+        print("There are 28 days in February")
+
+    if Question == "march":
+        print("There are 31 days in March")
+
+    if Question == "april":
+        print("There are 30 days in April")
+
+    if Question == "may":
+        print("There are 31 days in May")
+
+    if Question == "june":
+        print("There are 31 days in June")
+
+    if Question == "july":
+        print("There are 31 days in july")
+
+    if Question == "august":
+        print("There are 31 days in August")
+
+    if Question == "september":
+        print("There are 31 days in September")
+
+    if Question == "october":
+        print("There are 30 days in October")
+
+    if Question == "november":
+        print("There are 31 days in November")
+
+    if Question == "december":
+        print("There are 31 days in December")
+
+Question = input("What month do you want to pick ?")
+print(Question)
+days_in_months()
