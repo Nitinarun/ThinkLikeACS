@@ -1,0 +1,100 @@
+Numbers = "1","2","3","4","5","6","7","8","9","10"
+print(Numbers)
+
+def odd_number_count():
+    if Numbers == "1,3,5,7,9":
+        print("These are odd numbers")
+
+    if Numbers == "2,4,6,8":
+        print("These are not odd numbers, you twat!!")
+
+Question = input("What are the odd numbers ?")
+print(Question)
+odd_number_count()
+
+MyList = [1,2,3,4,5,6,7,8,9,10]
+
+def calculate_even():
+    evens = 0
+    for i in MyList:
+        if i%2 == 0:
+            print(i)
+            evens+=i
+    return(evens)
+
+print(calculate_even())
+
+MyList = [-10,-9,-8,-7,-6,-5,-4,-3,-2,-1]
+
+def calculate_negative_numbers():
+    negativenumbers = 0
+    for i in MyList:
+     if i<0:
+        print(i)
+        negativenumbers+=i
+    return negativenumbers
+
+print(calculate_negative_numbers())
+
+Mylist = ["James","Robbert","Samantha","Robbi"]
+print(Mylist)
+
+theString = input("Pick a word from the list :")
+print(len(theString))
+
+if "Robbert" or "Samantha" in theString:
+    print("These words have a length of 7 and 8 respectively")
+
+else:
+    print("The other words have 5 letters. ")
+
+#Use a while statement
+MyList = [3,5,6]
+sum = 0
+
+for i in MyList:
+    if i%2 == 0:
+        break
+    sum = sum + i
+
+print(sum)
+
+MyList = ("Sam","Jack","Zariff","Russell","Labib","Sahil")
+for i in MyList:
+    print(i)
+
+Word_count = len("Sam")
+print(Word_count)
+
+Word_count = len("Jack")
+print(Word_count)
+
+Word_count = len("Zariff")
+print(Word_count)
+
+Word_count = len("Russell")
+print(Word_count)
+
+Word_count = len("Labib")
+print(Word_count)
+
+Word_count = len("Sahil")
+print(Word_count)
+
+Question = input("Put in a value from 1 to 5:")
+
+def print_triangular_numbers():
+    if print_triangular_numbers() == "1":
+        print("1")
+
+    if print_triangular_numbers() == "2":
+        print("1,3")
+
+    if print_triangular_numbers() == "3":
+        print("1,3,6")
+
+    if print_triangular_numbers() == "4":
+        print("1,3,6,10")
+
+    if print_triangular_numbers() == "5":
+        print("1,3,6,10,15")
