@@ -1,0 +1,19 @@
+SingleDigit = ["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"]
+Teens = ["Ten","Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen"]
+Tens = ["twenty","thirty","fourty","fifty","sixty","seventy","eighty","ninety"]
+
+def numbertoword(Number):
+
+    if Number < 9:
+        return (SingleDigit[Number])
+    elif (Number <20):
+        return (Teens[Number-10])
+    elif (Number <= 90):
+        tensdigit = str(Number)[0:1]
+        tensdigit = int(tensdigit)-2
+        print(tensdigit)
+        print(Tens[tensdigit])
+
+number = int(input("Please put in a number between 1 and 99 :"))
+numberstring = numbertoword(number)
+print(numberstring)
