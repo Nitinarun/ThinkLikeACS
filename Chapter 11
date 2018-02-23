@@ -22,6 +22,14 @@ b = a[:]
 b[0] = 5
 print(b)
 
+Qn 4 
+this = ["I", "am", "not", "a", "crook"]
+that = ["I", "am", "not", "a", "crook"]
+print("Test 1: {0}".format(this is that))
+that = this
+print("Test 2: {0}".format(this is that))
+#This code helps to test and see of the list created for this is the same as the list created for that.
+
 Qn 6
 u = [1,2,3,4,5,6,7,8,9,10]
 print(u)
