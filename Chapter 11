@@ -1,0 +1,87 @@
+Qn 1 
+List = ["Yellow","Off-White","Supreme", "Champion","Palace","Alexander Wong"]
+Function = list(range(10,0,-2))
+print(Function)
+
+Qn 2 
+import turtle
+
+wn = turtle.Screen()
+wn.bgcolor = ("Red")
+wn.title("Alex draw a Square")
+
+tess = turtle.Turtle()
+alex = tess
+alex.color("hotpink")
+turtle.done()
+#As shown in the turtle window , it shows that the arrow is hotpink ,so it can be conluded that the code does also change the color.
+
+Qn 3
+a = [1, 2, 3]
+b = a[:]
+b[0] = 5
+print(b)
+
+Qn 6
+u = [1,2,3,4,5,6,7,8,9,10]
+print(u)
+v = [11,12,13,14,15,16,17,18,19,20]
+print(v)
+mylist3 = []
+
+Length1 = len(u)
+print(Length1)
+Length2 = len(v)
+print(Length2)
+
+def add_vectors(u,v):
+    for i in range(len(u)):
+        mylist3.append(u[i] + v[i])
+        print(mylist3)
+
+add_vectors(u,v)
+
+Qn 7
+s = [1,2,3,4,5,6,7,8,9,10]
+print(s)
+v = [11,12,13,14,15,16,17,18,19,20]
+print(v)
+mylist3 = []
+
+Length1 = len(s)
+print(Length1)
+Length2 = len(v)
+print(Length2)
+
+def scalar_mult(s,v):
+    for i in range(len(s)):
+        mylist3.append(s[i] * v[i])
+        print(mylist3)
+
+scalar_mult(s,v)
+
+Qn 8
+u = [1,2,3,4,5,6,7,8,9,10]
+print(u)
+v = [11,12,13,14,15,16,17,18,19,20]
+print(v)
+mylist3 = []
+
+Length1 = len(u)
+print(Length1)
+Length2 = len(v)
+print(Length2)
+
+def dot_product(u,v):
+    for i in range(len(u)):
+        mylist3.append(u[i] + v[i])
+        print(mylist3)
+
+dot_product(u,v)
+
+Qn 10
+Our_str = input("Put in a sentence : ")
+Self = input("The word that wants to be changed : ")
+Old = input("The new word : ")
+new_str = Our_str.replace(Self,Old)
+print(new_str)
