@@ -1,0 +1,17 @@
+def linearsearch(myItem,myList):
+    found = False
+    position = 0
+    while position < len(Shopping_List):
+        if Shopping_List[position] == myItem:
+            found = True
+        position = position +1
+    return found
+
+Shopping_List = ["Apples","Chicken","Milk","Strawberries","Raspberries","Jackfruit","Jellies","Beef"]
+Item = input("What item do you need to pick up : ")
+isitFound = linearsearch(Item , Shopping_List)
+if isitFound:
+    print("Your item is within your list")
+
+else:
+    print("Your item is not in your list")
