@@ -1,0 +1,8 @@
+Statement = "This program allows teachers to input a number and then create a times\n" \
+            "table for teaching Purposes.Please input a number below."
+print(Statement)
+Question = int(input("Input a number :"))
+
+for i in range (1,13):
+    print(Question , "X" ,i, "=",Question*i )
+    
