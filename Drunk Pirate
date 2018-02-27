@@ -1,3 +1,6 @@
+Question : Use the turtle module to draw the path of a drunk pirate. A drunk pirate makes a random turn and then takes 100 steps forward
+,makes another random turn, takes another 100 steps, turns another random amount, etc.
+
 import turtle
 def draw_square(t ,sz):
     for i in range(5):
