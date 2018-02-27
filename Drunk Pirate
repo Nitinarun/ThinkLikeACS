@@ -1,0 +1,17 @@
+import turtle
+def draw_square(t ,sz):
+    for i in range(5):
+        t.forward(sz)
+        t.left(90)
+
+wn = turtle.Screen()
+wn.bgcolor = ("Black")
+wn.title("Drunk Pirate")
+
+pirate = turtle.Turtle()
+draw_square(pirate,100)
+pirate.forward(100)
+pirate.penup()
+pirate.forward(100)
+pirate.penup()
+turtle.done()
