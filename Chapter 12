@@ -1,0 +1,127 @@
+import calendar
+cal = calendar.TextCalendar()
+cal.pryear(2012)
+
+print(cal)
+#This code prints out the configuration for the calendar of 2012
+
+import calendar
+cal = calendar.TextCalendar()
+cal.pryear(2012)
+
+print(cal)
+
+Question = input("What month is your birthday on ? :")
+Question2 = input("So what date is it then ? :")
+
+if Question == "January":
+    print(Question2)
+
+print("So your bday is :", Question+" " + Question2 +" "+ "2012")
+
+import calendar
+cal = calendar.TextCalendar()
+
+d = calendar.LocaleTextCalendar(6, "SPANISH")
+d.pryear(2012)
+
+print(d)
+
+import calendar
+cal = calendar.isleap(2013)
+print(cal)
+# This code identifies if the year inputted is a leap year or not by indicating in True or
+# false statements
+
+math
+#The maths module has 41 functions
+
+math.ceil()
+#Return the ceiling of x, the smallest integer greater than or equal to x. If x is not a float, delegates to x.__ceil__(), which should return an Integral value.
+
+math.floor()
+#Return the floor of x, the largest integer less than or equal to x. If x is not a float, delegates to x.__floor__(), which should return an Integral value.
+
+math.sqrt
+#Return the square root of x.
+
+copy.deepcopy(x)
+#Return a deep copy of x.
+
+s = "If we took the bones out, it wouldn't be crunchy, would it?"
+s.split()
+type(s.split())
+s.split("o")
+s.split("i")
+Final ="o".join(s.split("o"))
+print(Final)
+# What is happening here is that the string (s) is being split by removing the o's
+# from the string and then it also removes the i's and then puts back the o's into
+# the string
+
+myage = 17
+print(myage)
+
+Year = 2018
+print(Year)
+
+_name_ = "Nitin"
+print("My Name is ",_name_)
+
+myage = 0
+print(myage)
+
+Year = 2000
+print(Year)
+
+if__name__ = "_main_"
+print("This won't run if I'm imported")
+
+import mymodule1
+import mymodule2
+
+print((mymodule2.myage - mymodule1.myage) ==(mymodule2.Year - mymodule1.Year))
+#This code identifies when your birthday is and whether your current age is correct or not
+
+import sys
+def test(did_pass):
+    """  Print the result of a test.  """
+    linenum = sys._getframe(1).f_lineno   # Get the caller's line number.
+    if did_pass:
+        msg = "Test at line {0} ok.".format(linenum)
+    else:
+        msg = ("Test at line {0} FAILED.".format(linenum))
+    print(msg)
+    
+   test(cleanword("what?") == "what")
+test(cleanword("'now!'") == "now")
+test(cleanword("?+='w-o-r-d!,@$()'") ==  "word")
+
+test(has_dashdash("distance--but"))
+test(not has_dashdash("several"))
+test(has_dashdash("spoke--"))
+test(has_dashdash("distance--but"))
+test(not has_dashdash("-yo-yo-"))
+
+test(extract_words("Now is the time!  'Now', is the time? Yes, now.") ==
+      ['now','is','the','time','now','is','the','time','yes','now'])
+test(extract_words("she tried to curtsey as she spoke--fancy") ==
+      ['she','tried','to','curtsey','as','she','spoke','fancy'])
+
+test(wordcount("now", ["now","is","time","is","now","is","is"]) == 2)
+test(wordcount("is", ["now","is","time","is","now","the","is"]) == 3)
+test(wordcount("time", ["now","is","time","is","now","is","is"]) == 1)
+test(wordcount("frog", ["now","is","time","is","now","is","is"]) == 0)
+
+test(wordset(["now", "is", "time", "is", "now", "is", "is"]) ==
+      ["is", "now", "time"])
+test(wordset(["I", "a", "a", "is", "a", "is", "I", "am"]) ==
+      ["I", "a", "am", "is"])
+test(wordset(["or", "a", "am", "is", "are", "be", "but", "am"]) ==
+      ["a", "am", "are", "be", "but", "is", "or"])
+
+test(longestword(["a", "apple", "pear", "grape"]) == 5)
+test(longestword(["a", "am", "I", "be"]) == 2)
+test(longestword(["this","supercalifragilisticexpialidocious"]) == 34)
+test(longestword([ ]) == 0)
+ 
