@@ -1,0 +1,52 @@
+f = open("test.txt", "rb")
+s = f.read()
+f.close()
+f = open("newtext.txt", "wb")
+f.write(s[::-1])
+f.close()
+print(f)
+
+f = open("Snake.txt","w")
+f.write("This text is used for Chapter 13.11 Exercise Qn 2: \n The Pythonidae, commonly known simply as pythons, from the Greek word \n python, are a family of nonvenomous snakes found in Africa, Asia,\n and Australia.\n Most members of this family are ambush predators, in that they typically \nremain motionless in a camouflaged position, and then strike suddenly at \n passing prey.")
+f.close()
+print(f)
+
+def filter(oldfile , newfile):
+    infile = open(oldfile,"r")
+    outfile = open(newfile ,"w")
+    while True:
+        Text = infile.readline()
+        if len(Text) == 0:
+            break
+        if Text[0] == "#":
+            continue
+
+        outfile.write()
+
+    infile.close()
+    outfile.close()
+    
+    !dlrow ,olleH
+
+---------------------------------
+
+nohtyP morf nettirw elif tsrif yM
+
+Ribosomes make proteins using ribosomal RNA (rRNA).
+ The ribosome reads the instructions found in the messenger RNA molecules
+ in a cell and builds proteins from these mRNAs by chemically linking 
+together amino acids (these are the building blocks of proteins) in 
+ the order defined by the mRNA.
+ 
+ This text is used for Chapter 13.11 Exercise Qn 2: 
+The Pythonidae, commonly known simply as pythons, from the Greek word
+python, are a family of nonvenomous snakes found in Africa, Asia,
+and Australia.
+Most members of this family are ambush predators, in that they typically
+remain motionless in a camouflaged position, and then strike suddenly at 
+passing prey.
+
+My first file written from Python
+---------------------------------
+Hello, world!
+
