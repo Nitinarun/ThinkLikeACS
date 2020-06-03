@@ -1,1 +1,1 @@
-# ThinkLikeACS (ThnkPy)
+# ThinkLikeACS (ThinkPy)
